@@ -4,4 +4,4 @@ MAINTAINER mattone.m@gmail.com
 
 RUN apt update && apt install -y libgit2-dev build-essential wget libcanberra-gtk-module unzip && \
     apt-get clean 
-RUN wget -O- get.pharo.org/64/61+vm | bash
+RUN wget -O- get.pharo.org/64/61+vm | bash 
